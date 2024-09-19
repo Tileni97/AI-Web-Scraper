@@ -3,8 +3,7 @@
 *.pyo
 *.pyd
 __pycache__/
-env/
-venv/
+ai/
 *.env
 
 # Jupyter Notebook checkpoints
