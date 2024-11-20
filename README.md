@@ -1,39 +1,71 @@
 # AI Web Scraper
 
-## Overview
-This project demonstrates an advanced AI-powered web scraper built with Python. It combines the power of web scraping technologies with artificial intelligence to extract specific information from websites based on user prompts.
+An advanced AI-powered web scraper that combines web scraping technologies with Google's Gemini AI to extract specific information from websites based on user prompts.
 
 ## Key Features
-- **Dynamic Web Scraping**: Utilizes Selenium for handling JavaScript-rendered content
-- **Intelligent Content Parsing**: Employs BeautifulSoup for efficient HTML parsing
-- **AI-Powered Information Extraction**: Leverages LangChain and Ollama to interpret and extract relevant data based on user prompts
-- **Proxy Integration**: Uses BrightData API for reliable and ethically-compliant web scraping
+- Dynamic web scraping with Selenium
+- Intelligent content parsing with BeautifulSoup
+- AI-powered extraction using Google's Gemini AI
+- Multi-platform support (Websites, Facebook Groups, Reddit)
+- Customizable analysis options
+- Data export in CSV/JSON formats
 
-## Technologies Used
+## Technologies
 - Python
-- Selenium
-- BeautifulSoup
-- LangChain
-- Ollama
-- BrightData API
+- Streamlit
+- Selenium WebDriver
+- BeautifulSoup4
+- Google Gemini AI
+- Pandas/Plotly
+## Screenshots
+<img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20165537.png" alt="CryptoTracker Screenshot 2" width="700"/>
+<img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20132012.png" alt="CryptoTracker Screenshot 2" width="700"/>
+<img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20164254.png" alt="CryptoTracker Screenshot 2" width="700"/>
+<img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20131851.png" alt="CryptoTracker Screenshot 2" width="700"/>
 
-## How It Works
-1. The user provides a URL to scrape
-2. Selenium navigates to the webpage and retrieves the DOM content
-3. BeautifulSoup parses the HTML for easy manipulation
-4. The user inputs a prompt describing the information they want to extract
-5. LangChain and Ollama process the prompt and analyze the webpage content
-6. The AI returns the requested information based on the prompt and available data
+## Setup
 
-## Getting Started
-(Include installation instructions, dependencies, and basic usage example here)
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Potential Applications
-- Market research and competitor analysis
-- Automated data collection for machine learning projects
-- Content aggregation for news and media platforms
-- Price monitoring and comparison tools
+2. Configure environment variables in `.env`:
+```plaintext
+GOOGLE_API_KEY=your_gemini_api_key
+FACEBOOK_EMAIL=your_facebook_email
+FACEBOOK_PASSWORD=your_facebook_password
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_secret
+REDDIT_USER_AGENT=your_app_name
+```
 
----
+3. Run the application:
+```bash
+streamlit run main.py
+```
 
+## Usage
+1. Select platform (Website/Facebook/Reddit)
+2. Enter URL or search parameters
+3. Choose analysis type:
+   - Product Information
+   - Price Comparison
+   - Feature Comparison
+   - Review Analysis
+   - Technical Specifications
+   - Custom Analysis
+4. Get AI-powered insights from scraped content
+
+## Applications
+- Market research
+- Price monitoring
+- Content aggregation
+- Product analysis
+- Customer sentiment analysis
+
+## License
+MIT
+
+## Author
 Built with ❤️ by Tileni
