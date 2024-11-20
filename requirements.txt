@@ -1,8 +1,13 @@
 streamlit 
-langchain 
-langchain_ollama
-selenium
 beautifulsoup4
 lxml 
 html5lib
 python-dotenv
+google-generativeai
+fake-useragent
+requests
+pandas
+plotly
+selenium
+praw
+webdriver-manager

@@ -31,3 +31,9 @@ dist/
 build/
 *.whl
 *.tar.gz
+
+__pycache__/
+*.py[cod]
+.env
+chromedriver.exe
+*.log
