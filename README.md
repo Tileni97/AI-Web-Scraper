@@ -19,6 +19,7 @@ An advanced AI-powered web scraper that combines web scraping technologies with 
 - Pandas/Plotly
 ## Screenshots
 <img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20165537.png" alt="CryptoTracker Screenshot 2" width="700"/>
+<img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20172612.png" alt="CryptoTracker Screenshot 2" width="700"/>
 <img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20132012.png" alt="CryptoTracker Screenshot 2" width="700"/>
 <img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20164254.png" alt="CryptoTracker Screenshot 2" width="700"/>
 <img src="https://github.com/Tileni97/AI-Web-Scraper/blob/Tileni97-screens/Screenshot%202024-11-20%20131851.png" alt="CryptoTracker Screenshot 2" width="700"/>
@@ -46,26 +47,39 @@ streamlit run main.py
 ```
 
 ## Usage
-1. Select platform (Website/Facebook/Reddit)
-2. Enter URL or search parameters
-3. Choose analysis type:
-   - Product Information
-   - Price Comparison
-   - Feature Comparison
-   - Review Analysis
-   - Technical Specifications
-   - Custom Analysis
-4. Get AI-powered insights from scraped content
+
+Select the platform: Choose from Website, Facebook Groups, or Reddit.
+Enter parameters: Input a URL or search criteria.
+Select analysis type:
+Product Information
+Price Comparison
+Feature Comparison
+Review Analysis
+Technical Specifications
+Custom Analysis
+View results: Let AI extract and present insights tailored to your requirements.
 
 ## Applications
-- Market research
-- Price monitoring
-- Content aggregation
-- Product analysis
-- Customer sentiment analysis
+
+Market Research: Gather data to understand trends and competitors.
+Price Monitoring: Track product prices across platforms.
+Content Aggregation: Compile information from multiple sources.
+Customer Insights: Analyze reviews and customer sentiments.
+Product Analysis: Compare features and specifications.
+Future Improvements
+Enhance AI accuracy for better contextual understanding.
+Add support for additional platforms and data export formats.
+Refine the user interface for an improved experience.
+
+## Why I Built This
+
+Finding rental apartments in Windhoek often involves scouring Facebook posts, which can be tedious and inefficient. I built this tool to simplify data extraction and analysis, making my search more manageable. While it’s still a work in progress, it’s already proven helpful, and I hope it can evolve into a more comprehensive solution.
 
 ## License
-MIT
+
+This project is licensed under the MIT License.
 
 ## Author
+
 Built with ❤️ by Tileni
+
